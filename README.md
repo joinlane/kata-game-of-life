@@ -1,14 +1,13 @@
-# Share and Learn - Dependency Injection with Inversify
+# Coding Katas - Game of Life
 
-A sample application which demonstrates some very simple Dependency Injection (DI) concepts.
+A simple exercise of TDD, Clean Code and Peership
 
 ## Commands
 
 ```
-yarn start  # Run the application
 yarn test   # Test the application
 ```
 
-# Credits
+# Resources
 
-- Fake identities fixture generated via [Fake Name Generator Bulk Order](https://www.fakenamegenerator.com/?utm_source=bulkorder&utm_medium=email&utm_campaign=bulkorder)
+- [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
