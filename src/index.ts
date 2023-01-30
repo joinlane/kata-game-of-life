@@ -5,13 +5,11 @@
  * 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction
  */
 
-// A|B|C
-// D|E|F
-// G|H|I
-// The neighbours of E are,
-//  * A, B, C, D, F, G, H, I
-// The neighbours of A are,
-//  * B, D, E
+/* Condensed Rules
+ * Any live cell with two or three live neighbours survives.
+ * Any dead cell with three live neighbours becomes a live cell.
+ * All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+ */
 
 /* Summary
  * The initial pattern constitutes the "seed" of the system. The first generation is
@@ -26,3 +24,11 @@ function main() {
 }
 
 main();
+
+// A|B|C
+// D|E|F
+// G|H|I
+// The neighbours of E are,
+//  * A, B, C, D, F, G, H, I
+// The neighbours of A are,
+//  * B, D, E
